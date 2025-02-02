@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark py-4 px-5">
+        <div class="container-fluid ms-5">
+            <a class="navbar-brand" href="#" style="font-weight: 600;">Gega Cinemas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Experirnce</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Food & Drinks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Location</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="me-5">
+                <i class="fa-regular fa-user fa-xl text-white" style="font-size: 30px;"></i>
+            </a>
+        </div>
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active ">
+                <img src="images/El-Dashash.jpg" class="d-block w-100 img-fluid">
+                <div class="details">
+                    <h5>Action|Comedy</h1>
+                    <h1>EL DASHASH</h1>
+                    <div class="controls">
+                        <a href="#" class="primary-btn">Book now</a>
+                        <a href="#" class="secondry-btn">Play trailer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Bd3-sa3at.jpg" class="d-block w-100 img-fluid">
+                <div class="details">
+                    <h5>DRAMA</h1>
+                    <h1>BIDE3 SAAT FE YOUM MA</h1>
+                    <div class="controls">
+                        <a href="#" class="primary-btn">Book now</a>
+                        <a href="#" class="secondry-btn">Play trailer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/El-7arefa.jpg" class="d-block w-100 img-fluid">
+                <div class="details">
+                    <h5>COMEDY</h1>
+                    <h1>AL HAREEFA 2</h1>
+                    <div class="controls">
+                        <a href="#"class="primary-btn">Book now</a>
+                        <a href="#" class="secondry-btn">Play trailer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Mufasa.jpg" class="d-block w-100 img-fluid">
+                <div class="details">
+                    <h5>Animation</h1>
+                    <h1>Mufasa: the lion king</h1>
+                    <div class="controls">
+                        <a href="#"class="primary-btn">Book now</a>
+                        <a href="#" class="secondry-btn">Play trailer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Sonic3.jpg" class="d-block w-100 img-fluid">
+                <div class="details">
+                    <h5>Animation</h1>
+                    <h1>SONIC THE HEDGEHOG 3</h1>
+                    <div class="controls">
+                        <a href="#"class="primary-btn">Book now</a>
+                        <a href="#" class="secondry-btn">Play trailer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev justify-content-start" style="opacity: 1;"  type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon "aria-hidden="true" ></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next justify-content-end " style="opacity: 1;" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="movies">
+        <div class="movies-header">
+            <h1 class="text-white" style="font-size: 25px;font-weight:700;">NOW SHOWING</h1>
+            <div class="dropdown dropdown-btn ms-auto">
+                <button class="btn btn-secondary dropdown-toggle select-btn" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-filter"></i>
+                    SORT
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <label class="dropdown-item">
+                            <input class="form-check-input me-2" type="checkbox" value="">
+                            Action
+                        </label>
+                    </li>
+                    <li>
+                        <label class="dropdown-item">
+                            <input class="form-check-input me-2" type="checkbox" value="">
+                            Another action
+                        </label>
+                    </li>
+                    <li>
+                        <label class="dropdown-item">
+                            <input class="form-check-input me-2" type="checkbox" value="">
+                            Something else here
+                        </label>
+                    </li>
+                </ul>
+            </div>
+    
+    
+        </div>
+            <div class="movies-cards row">
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/El-Dashash-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">EL DASHASH</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/6-ayam-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">6 DAYS: 3EMLET EH FINA EL SININ</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/Den-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">DEN OF THIEVES 2: PANTERA</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/dog-man-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">DOG MAN</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/El-7arefa-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">AL HAREEFA 2</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/El-hana-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">EL HANA EL ANA FEEH</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/first-time-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">LA AWEL MARRA</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/flight-risk-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">FLIGHT RISK</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/Mufasa-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">MUFASA: THE LION KING</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/rampo-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">RAMBO</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/seven-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">SE7EN (RE-RELEASE)</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card movie-card bg-black text-white" style="width: 18rem; text-align: center;">
+                        <img src="images/some-hours-poster.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">BIDE3 SAAT FE YOUM MA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
