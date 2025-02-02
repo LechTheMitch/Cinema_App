@@ -1,3 +1,6 @@
+:root{
+    --red-color: #C81E1E;
+}
 * {
     padding: 0;
     margin: 0;
@@ -15,10 +18,16 @@ body {
 /* Start Nav */
 .nav-item{
     margin: 0 15px 0 15px ;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+.nav-item:hover , .nav-item .active{
+    background-color: var(--red-color);
 }
 
 .nav-item a{
     font-weight: 600;
+    border-radius: 12px;
 }
 
 /* End Nav */
@@ -70,12 +79,12 @@ body {
 }
 
 .controls .primary-btn{
-    background-color: #00534C;
+    background-color: var(--red-color);
     color: white;
     font-size: 20px;
     text-decoration: none;
     font-weight: 600;
-    border: 1px solid #00534C;
+    border: 1px solid var(--red-color);
     transition: box-shadow .5s linear;
     border-radius: 5px;
     padding: 5px 35px 5px 35px;
